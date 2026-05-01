@@ -31,3 +31,4 @@ jobs:
           script: |
             const script = require('./utils/update-next.js')
             await script({ github, context, tag: 'canary' })
+ 
